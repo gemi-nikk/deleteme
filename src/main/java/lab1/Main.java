@@ -52,7 +52,8 @@ public class Main {
             System.out.println("Info saved to output.txt"); // Print a message indicating that the information has been saved
         } catch (IOException e) { // Catch any Input/Output exceptions that might occur during file writing
             System.out.println("Could not write to file."); // Print an error message if writing to the file fails
-        } finally {
+        } finally
+        {
             input.close(); // Close the scanner to prevent resource leaks
         }
     }
