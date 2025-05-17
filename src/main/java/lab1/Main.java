@@ -12,7 +12,7 @@ public class Main {
         Scanner input = new Scanner(System.in); // Create a Scanner object to read input from the console
         String name;
         int age;
-        System.out.print("What is your name? "); // user to enter their name
+        System.out.print("What is your name bro? "); // user to enter their name
         name = input.nextLine(); // Read the entire line of input and store it in the name variable
         System.out.print("How old are you bro? "); // user to enter their age
         age = Integer.parseInt(input.nextLine()); // Read the age from the input, convert it from a string to an integer, and store it in the age variable
